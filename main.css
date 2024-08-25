@@ -1,0 +1,62 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #c141e1;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #c141e1;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-roupas .nav-link.active:hover {
+    color: #fff;
+}
+
+
+.navbar-toggler {
+    background-color: #ebbbf7;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+
+#sobre-a-loja, #roupas {
+    background-color: #ebbbf7;
+}
+
+.text-colored {
+    color: #c141e1;
+}
+
+.nav-roupas .nav-link.active,
+#fale-conosco button {
+    background-color: #c141e1;
+    color: #fff;
+}
+
+.nav-roupas .nav-link:hover {
+    color: #c141e1;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
